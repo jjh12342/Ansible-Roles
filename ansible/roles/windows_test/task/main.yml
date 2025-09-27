@@ -1,0 +1,5 @@
+---
+- name: Create C:\test folder
+  ansible.windows.win_file:
+    path: C:\test
+    state: directory
