@@ -1,5 +1,5 @@
 ---
 - name: Apply Windows test role
-  hosts: windows
+  hosts: all
   roles:
     - windows_test
